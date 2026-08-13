@@ -21,7 +21,7 @@ public abstract class Animal {
                 Nombre: %s,
                 Alimentacion: %s,
                 años: %d,
-                Dueño: %d,
+                Dueño: %s,
                 Costo de la consulta = %,.2f
                 """.formatted(this.nombre, this.tipoAlimentacion, this.anios, this.acudiente, costoConsulta()));
     }
