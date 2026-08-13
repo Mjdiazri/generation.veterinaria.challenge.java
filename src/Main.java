@@ -2,10 +2,11 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("\n------- Prueba 1 ---------");
-        Animal[] animales = new Animal[3];
+        Animal[] animales = new Animal[4];
         animales[0] = new Perro("pincher", "Orion", "Omnivoro", 12, "Maria");
         animales[1] = new Gato("Pinguina", "Herbivoro", 6, "Angely", true);
         animales[2] = new Ave("Cokkie", "Herbivoro", 3, "Juan", 2550);
+        animales[3] = new Conejo("Bugs", "Herbivoro", 2, "Moni");
 
         for (int i = 0; i < animales.length; i++) {
             animales[i].mostrarFicha();
@@ -34,10 +35,6 @@ public class Main {
             System.out.println(asegurables[i].calcularPrimaSeguro());
             System.out.println(asegurables[i].obtenerNumeroPoliza());
         }
-
-
-
-
 
     }
 }
