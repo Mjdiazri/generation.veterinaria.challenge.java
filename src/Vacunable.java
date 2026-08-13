@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
 public interface Vacunable {
+
+    void registrarVacuna(String nombreVacuna);
+    int getTotalVacunasAplicadas();
+
 }
